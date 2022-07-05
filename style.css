@@ -40,10 +40,95 @@ header{
 }
 
 .order-btn{
-    background-image: linear-gradient(to right, orange, tomato);
+    background-image: linear-gradient(to right,  tomato,orange);
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     width: 150px;
     font-size: 20px;
+    box-shadow: 10px 10px 50px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    margin-top:80px;
+    background-image: url("./images/about-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-half-width{
+    width: 50%;
+    margin-top: 80px;
+}
+
+
+.about-img img{
+    width: 80%;
+    height: 100%;
+}
+
+.about-details{
+    padding: 70px;
+}
+
+.about-details p{
+    line-height: 30px;
+}
+
+.contact-btn{
+    width: 150px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-image: linear-gradient(to right,orange, tomato);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+
+.recipe{
+    padding-top: 30px;
+}
+
+.recipe-header{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.recipe-header h1{
+    font-size: 30px;
+}
+.recipe-header p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.recipe-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipe-card{
+    width: 35%;
+    margin: 25px;
+    padding: 15px;
+    padding-bottom: 35px;
+    box-shadow: 5px 5px 20px #00000040;
+    border-radius: 20px;
+}
+
+.recipe-card img{
+    width: 95%;
+    padding:10px;
+
+}
+
+.recipe-card h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
